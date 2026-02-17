@@ -3,5 +3,6 @@ resource "azurerm_resource_group" "rg" {
     location = "australiaeast"
 tags = {
   owner = "production"
-}
+      department = "prod1"
+    }
 }
